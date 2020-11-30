@@ -1,0 +1,60 @@
+package misc;
+
+public class Address {
+
+	private String state;
+	
+	private String street;
+	
+	private String zipcode;
+	
+	private String city;
+	
+	public Address() {
+		
+		this.state = null;
+		this.street	= null;
+		this.zipcode = null;
+		this.city = null;
+		
+	}
+	
+	public Address(String state, String street, String zipcode, String city) {
+		
+		this.state = state;
+		this.street	= street;
+		this.zipcode = zipcode;
+		this.city = city;
+		
+	}
+	
+	public void setState(String state) {
+		this.state = state;
+	}
+	
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	
+	public void setZipcode(String zipcode) {
+		this.zipcode = zipcode;
+	}
+	
+	public void setCity(String city) {
+		this.city = city;
+	}
+	
+	@Override 
+	public String toString(){
+		
+		StringBuilder sb = new StringBuilder();
+		
+		sb.append(street + ", ");
+		sb.append(city + ", ");
+		sb.append(state + ", ");
+		sb.append(zipcode + "\n\n");
+		
+		return sb.toString();
+	}
+
+}

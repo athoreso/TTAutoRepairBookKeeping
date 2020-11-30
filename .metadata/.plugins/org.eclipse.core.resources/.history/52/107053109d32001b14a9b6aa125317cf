@@ -1,0 +1,33 @@
+package app;
+
+import java.util.Scanner;
+
+public class BookKeeper {
+
+	public static void main(String[] args) {
+		
+		Scanner stdin = new Scanner(System.in);
+		
+		System.out.println("Create a customer: ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,7 @@
+package things;
+
+import consumables.Consumable;
+
+public class ShopSupply implements Consumable {
+
+}

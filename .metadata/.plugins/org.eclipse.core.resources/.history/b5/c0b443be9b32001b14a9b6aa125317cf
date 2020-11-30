@@ -1,0 +1,35 @@
+package misc;
+
+public class Address {
+
+	private String state;
+	
+	private String street;
+	
+	private String zipcode;
+	
+	private String city;
+	
+	public Address(String state, String street, String zipcode, String city) {
+		
+		this.state = state;
+		this.street	= street;
+		this.zipcode = zipcode;
+		this.city = city;
+		
+	}
+	
+	@Override 
+	public String toString(){
+		
+		StringBuilder sb = new StringBuilder();
+		
+		sb.append(street + ", ");
+		sb.append(city + ", ");
+		sb.append(state + ", ");
+		sb.append(zipcode + "\n");
+		
+		return sb.toString();
+	}
+
+}

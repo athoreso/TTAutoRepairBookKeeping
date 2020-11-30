@@ -1,0 +1,7 @@
+package things;
+
+import consumables.Consumable;
+
+public class Part implements Consumable{
+
+}
